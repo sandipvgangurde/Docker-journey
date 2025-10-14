@@ -1,6 +1,3 @@
-Certainly! Below is the updated Docker Installation Guide, now with an added section for using `docker info` to gather system-level details about your Docker installation. This will give you a comprehensive overview of your Docker environment.
-
----
 
 # 🚀 Docker Installation Guide
 
@@ -236,20 +233,3 @@ Here’s a breakdown of the most important details you can find from `docker inf
 You now have Docker up and running on your system. 🐳
 
 ---
-
-## 🚨 Troubleshooting Tips
-
-* **Issue**: Docker is not starting after installation.
-
-  * **Solution**: Try starting the service manually using `sudo systemctl start docker`.
-* **Issue**: Permission errors when running Docker commands.
-
-  * **Solution**: You may need to add your user to the Docker group:
-
-    ```bash
-    sudo usermod -aG docker $USER
-    ```
-
----
-
-Let me know if you'd like more details or further customization on this guide! 😎
